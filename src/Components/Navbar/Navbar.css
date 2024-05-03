@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Patrick Hand", cursive;
+    font-style: normal;
+}
+
+.nav-head{
+  /* border: 2px solid red; */
+  font-size: 40px;
+  padding: 10px 40px;
+  color: rgb(153,31,72);
+  font-weight: 500;
+}
+#home{
+  background-color: rgb(153,31,72);
+}
+.nav-para{
+ /* border: 2px solid blue; */
+ font-size: 25px;
+ padding: 10px 40px; 
+}
+.nav-list{
+ /* border: 2px solid pink; */
+ display: flex;
+ width: 95%;
+ align-items: center;
+ margin: 15px auto;
+ list-style: none;
+ color: white;
+}
+.nav-list-item{
+ /* border: 2px solid greenyellow; */
+ padding: 10px 0px;
+ font-size: 20px;
+ width: 20%;
+ text-align: center;
+ transition: 0.2s ease;
+ background-color: rgb(165,161,158);
+}
+.nav-list-item:hover{
+  background-color: rgb(153,31,72);
+}
+
+
+
+@media screen and (max-width:550px) {
+
+  .navbar{
+    text-align: center;
+  }
+  .nav-head{
+    font-size: 30px;
+    padding: 10px 0px;
+  }
+  .nav-para{
+   font-size: 20px;
+   padding: 10px 0px;
+   }
+  .nav-list{
+   flex-wrap: wrap;
+   justify-content: center;
+   }
+   .nav-list-item{
+    width: 30%;
+    margin: 7px;
+   }
+   
+}
+
+@media screen and (max-width:350px) {
+  .nav-head{
+    font-size: 25px;
+  }
+   .nav-list-item{
+    width:40%;
+    margin:5px;
+    font-size: 17px;
+   }
+   
+}

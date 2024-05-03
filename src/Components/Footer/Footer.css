@@ -1,0 +1,8 @@
+.footer-box{
+    background-color: rgb(165,161,158);
+    padding: 17px 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    overflow-wrap: break-word;
+}

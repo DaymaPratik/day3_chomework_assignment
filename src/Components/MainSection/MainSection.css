@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-container{
+border: 2x solid black;
+width: 95%;
+margin: 40px auto;
+margin-bottom: 0px;
+text-align: center;
+color: white
+}
+.main-img-box{
+  /* border: 2px solid red; */
+  height: 80vh;
+}
+.main-img-box img{
+    width: 100%;
+    height: 100%;
+}
+.main-content-box{
+ /* border: 2px solid blue; */
+ padding: 50px 20px;
+ background-color: rgb(153,31,72);
+}
+.main-head{
+ /* border: 2px solid yellowgreen; */
+ padding: 10px;
+ font-size: 35px;
+ margin: 20px;
+}
+.main-para{
+    /* border: 2px solid purple; */
+    padding: 10px;
+    font-size: 25px;
+    margin: 20px;
+}
+.main-btn-box{
+    /* border: 2px solid orange; */
+    width:70%;
+    margin: 20px auto;
+    
+}
+.main-btn{
+ width: 48%;
+ padding: 10px 0px;
+ font-size: 20px;
+ border: 2px solid white;
+ background: transparent;
+ color: white;
+ margin: 0px 5px;
+ transition: 0.2s ease-in;
+}
+.main-btn:hover{
+    background: whitesmoke;
+    color: rgb(153,31,72);
+}
+
+@media screen and (max-width:900px) {
+    .main-img-box{
+        height: 50vh;
+    }
+}
+@media screen and (max-width:850px) {
+    .main-btn-box{
+        width: 85%;
+    }
+    .main-btn{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:700px) {
+    .main-btn-box{
+        width: 60%;
+       
+    }
+    .main-btn{
+        font-size: 18px;
+        width: 100%;
+        margin: 5px 0px;
+    }
+}
+@media screen and (max-width:500px) {
+    .main-img-box{
+        height: 40vh;
+    }
+    .main-content-box{
+        padding: 10px;
+      }
+
+    .main-head{
+        padding: 5px 0px;
+        font-size: 25px;
+        margin: 10px;
+       }
+       .main-para{
+        font-size: 20px;
+        margin: 10px;
+        padding: 5px 0px;
+    }
+
+    .main-btn-box{
+        width: 80%;
+       
+    }
+    .main-btn{
+        font-size: 15px;
+        width: 100%;
+        margin: 5px 0px;
+    } 
+}
+@media screen and (max-width:350px) {
+    .main-head{
+        font-size: 23px;
+        margin: 7px;
+       }
+       .main-para{
+        font-size: 18px;
+        margin: 7px;
+    }
+
+    .main-btn{
+        font-size: 13px;
+        width: 100%;
+        margin: 5px 0px;
+    } 
+}
